@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-F43_3A-R5SnE3_puqCGrZhNhf4XsusB'
-export_file_name = '1-8-20_4cycles_after_lr_find.pkl'
+export_file_name = 'export.pkl'
 
 classes = ['Bacterial Pneumonia','COVID-19','Normal','Other Findings','TB','Viral Pneumonia']
 path = Path(__file__).parent
